@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jardel Queiroz — Desenvolvedor de sistemas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">JQ<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Fale comigo</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">Disponível para trabalho</div>
+        <h1 class="hero-title">
+          <span class="line1">Jardel</span>
+          <span class="line2">Queiroz</span>
+          <span class="highlight">Dev Web.</span>
+        </h1>
+        <p class="hero-desc">
+          Desenvolvedor web apaixonado por transformar ideias em experiências digitais cativantes.
+          Cursando Análise e Desenvolvimento de Sistemas, com foco em front-end e back-end.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Ver projetos</a>
+          <a href="#contact" class="btn-ghost">Entrar em contato</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">6<span>+</span></div>
+            <div class="stat-label">Projetos</div>
+          </div>
+          <div>
+            <div class="stat-num">4<span>+</span></div>
+            <div class="stat-label">Tecnologias</div>
+          </div>
+          <div>
+            <div class="stat-num">100<span>%</span></div>
+            <div class="stat-label">Dedicação</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <img src="./assets/Jardel (2).jpg" alt="Jardel Queiroz" class="hero-photo" />
+          <div class="hero-photo-overlay"></div>
+          <div class="hero-photo-frame"></div>
+          <span class="hero-tech-tag tag-html">HTML5</span>
+          <span class="hero-tech-tag tag-css">CSS3</span>
+          <span class="hero-tech-tag tag-js">JavaScript</span>
+          <span class="hero-tech-tag tag-java">Java</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-photo-wrap">
+          <img src="./assets/jardel.jpg" alt="Jardel Queiroz" class="about-photo" />
+          <div class="about-photo-accent"></div>
+        </div>
+        <div class="about-text">
+          <p class="section-label">// sobre mim</p>
+          <h2 class="section-title">Código com<br/>propósito.</h2>
+          <p>
+            Sou um desenvolvedor apaixonado por tecnologia e pela arte de transformar 
+            <strong>linhas de código em experiências reais</strong>. Minha jornada começou com
+            curiosidade e evoluiu para um compromisso profissional com o desenvolvimento web.
+          </p>
+          <p>
+            Atualmente concluindo a graduação em <strong>Análise e Desenvolvimento de Sistemas</strong>,
+            com foco em criar soluções que sejam funcionais, bonitas e acessíveis. Busco
+            constantemente me atualizar com as tendências da indústria.
+          </p>
+          <div class="skills-row">
+            <span class="skill-chip">HTML5</span>
+            <span class="skill-chip">CSS3</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">Java</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">JavaFX</span>
+            <span class="skill-chip">MySQL</span>
+            <span class="skill-chip">Git</span>
+          </div>
+          <a href="./Currículo Jardel de Castro Queiroz.docx" target="_blank" class="btn-primary">
+            Download Currículo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK MARQUEE -->
+  <section id="stack">
+    <div class="container">
+      <p class="section-label reveal">// tecnologias</p>
+      <h2 class="section-title reveal">Minha stack.</h2>
+    </div>
+    <div class="stack-marquee-wrap">
+      <div class="marquee" id="marquee">
+        <div class="marquee-inner">
+          <div class="stack-item"><span class="stack-icon">🌐</span><span class="stack-name">HTML5</span></div>
+          <div class="stack-item"><span class="stack-icon">🎨</span><span class="stack-name">CSS3</span></div>
+          <div class="stack-item"><span class="stack-icon">⚡</span><span class="stack-name">JavaScript</span></div>
+          <div class="stack-item"><span class="stack-icon">☕</span><span class="stack-name">Java</span></div>
+          <div class="stack-item"><span class="stack-icon">🐍</span><span class="stack-name">Python</span></div>
+          <div class="stack-item"><span class="stack-icon">🗄️</span><span class="stack-name">MySQL</span></div>
+          <div class="stack-item"><span class="stack-icon">🖥️</span><span class="stack-name">JavaFX</span></div>
+          <div class="stack-item"><span class="stack-icon">🔧</span><span class="stack-name">Git</span></div>
+          <div class="stack-item"><span class="stack-icon">📱</span><span class="stack-name">Responsive</span></div>
+          <div class="stack-item"><span class="stack-icon">🚀</span><span class="stack-name">Netlify</span></div>
+        </div>
+        <div class="marquee-inner" aria-hidden="true">
+          <div class="stack-item"><span class="stack-icon">🌐</span><span class="stack-name">HTML5</span></div>
+          <div class="stack-item"><span class="stack-icon">🎨</span><span class="stack-name">CSS3</span></div>
+          <div class="stack-item"><span class="stack-icon">⚡</span><span class="stack-name">JavaScript</span></div>
+          <div class="stack-item"><span class="stack-icon">☕</span><span class="stack-name">Java</span></div>
+          <div class="stack-item"><span class="stack-icon">🐍</span><span class="stack-name">Python</span></div>
+          <div class="stack-item"><span class="stack-icon">🗄️</span><span class="stack-name">MySQL</span></div>
+          <div class="stack-item"><span class="stack-icon">🖥️</span><span class="stack-name">JavaFX</span></div>
+          <div class="stack-item"><span class="stack-icon">🔧</span><span class="stack-name">Git</span></div>
+          <div class="stack-item"><span class="stack-icon">📱</span><span class="stack-name">Responsive</span></div>
+          <div class="stack-item"><span class="stack-icon">🚀</span><span class="stack-name">Netlify</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header reveal">
+        <div>
+          <p class="section-label">// projetos</p>
+          <h2 class="section-title">Trabalhos selecionados.</h2>
+        </div>
+        <span class="project-count">06 projetos</span>
+      </div>
+      <div class="projects-grid reveal">
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup_portifolio.png" alt="Portfólio" class="project-img" />
+          </div>
+          <div class="project-num">01 / Portfólio</div>
+          <div class="project-name">Meu Portfólio <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Portfólio pessoal desenvolvido em HTML, CSS e JavaScript. Site totalmente responsivo com designer adequado para todas as plataformas.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup_icb.png" alt="ICB" class="project-img" />
+          </div>
+          <div class="project-num">02 / Web App</div>
+          <div class="project-name">Cadastro de Membros <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Sistema de cadastro para uma igreja com banco de dados relacional. CRUD completo com backend em Python e frontend em HTML, CSS e JS.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup bodega.png" alt="Bodega" class="project-img" />
+          </div>
+          <div class="project-num">03 / Desktop</div>
+          <div class="project-name">Sistema Bodega <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Sistema desktop em JavaFX para cadastro e busca de clientes por CPF, desenvolvido para simular necessidades de um mercantil.</p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">JavaFX</span>
+            <span class="project-tag">Desktop</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup_site escolar.png" alt="Site Escolar" class="project-img" />
+          </div>
+          <div class="project-num">04 / Landing Page</div>
+          <div class="project-name">Site Escolar <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Landing page para um instituto educacional, desenvolvida de forma totalmente responsiva com HTML, CSS e JavaScript.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">Responsivo</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup_site clinica.png" alt="Clínica" class="project-img" />
+          </div>
+          <div class="project-num">05 / Website</div>
+          <div class="project-name">Clínica de Saúde <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Site para clínica de saúde com sistema de login e cadastro de membros. Desenvolvido com HTML, CSS e JavaScript.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">Auth</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="./assets/mokcup_sorteio.png" alt="Sorteio" class="project-img" />
+          </div>
+          <div class="project-num">06 / App Web</div>
+          <div class="project-name">Site de Sorteio <span class="project-arrow">↗</span></div>
+          <p class="project-desc">Aplicação para sorteio de brindes em uma campanha solidária de uma igreja, desenvolvida com HTML, CSS e JavaScript.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div>
+          <p class="section-label">// contato</p>
+          <h2 class="contact-cta-title">Vamos<br/>trabalhar<br/><em>juntos.</em></h2>
+          <p class="contact-sub">
+            Aberto a oportunidades, freelas e colaborações. 
+            Me chama e vamos construir algo incrível.
+          </p>
+          <a href="mailto:jardeljcadm@gmail.com" class="btn-primary">
+            jardeljcadm@gmail.com
+          </a>
+        </div>
+        <div class="contact-links">
+          <a href="https://wa.me/5585986078140" target="_blank" class="contact-link">
+            <div class="contact-link-icon" style="background:rgba(37,211,102,0.1)">💬</div>
+            <div class="contact-link-info">
+              <div class="contact-link-label">WhatsApp</div>
+              <div class="contact-link-value">+55 85 98607-8140</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+          <a href="https://github.com/jardeljca" target="_blank" class="contact-link">
+            <div class="contact-link-icon" style="background:rgba(255,255,255,0.05)">🐙</div>
+            <div class="contact-link-info">
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-value">github.com/jardeljca</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/jardel-queiroz-b62166209/" target="_blank" class="contact-link">
+            <div class="contact-link-icon" style="background:rgba(10,102,194,0.12)">💼</div>
+            <div class="contact-link-info">
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-value">Jardel Queiroz</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+          <a href="https://instagram.com/jardeljca" target="_blank" class="contact-link">
+            <div class="contact-link-icon" style="background:rgba(225,48,108,0.1)">📸</div>
+            <div class="contact-link-info">
+              <div class="contact-link-label">Instagram</div>
+              <div class="contact-link-value">@jardeljca</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">JQ<span>.</span></div>
+    <div class="footer-copy">© 2025 Jardel Queiroz — Desenvolvedor Web</div>
+  </footer>
+
+  <script src="./script/script.js"></script>
+</body>
+</html>
