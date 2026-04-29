@@ -1,2 +1,2 @@
-# Portif-lio_JardelQueiroz
+# Portifolio_JardelQueiroz
 Portifólio novo criado com auxilio do claude com as linguagens html, css e javascritp
