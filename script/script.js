@@ -1,5 +1,4 @@
-<script>
-    // Custom cursor
+// Custom cursor
     const cursor = document.getElementById('cursor');
     const ring = document.getElementById('cursor-ring');
     let mx = 0, my = 0, rx = 0, ry = 0;
@@ -82,4 +81,3 @@
         a.style.color = a.getAttribute('href') === '#' + current ? 'var(--text)' : '';
       });
     });
-  </script>
